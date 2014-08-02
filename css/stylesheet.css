@@ -1,0 +1,43 @@
+
+body {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.footer {
+	padding-top: 20px;
+	color: #777;
+	border-top: 1px solid #e5e5e5;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+
+.jumbotron {
+	text-align: center;
+}
+
+.jumbotron + h1 {
+	font-family: 'Libre Baskerville', serif;
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+
+.logo {
+	float: right;
+}
+
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
